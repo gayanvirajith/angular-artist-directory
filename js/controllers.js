@@ -1,6 +1,6 @@
 (function(){
 
-  var app = angular.module('appControllers', []);
+  var app = angular.module('appControllers', ['ngAnimate']);
 
   app.controller('DirectoryController', ['$http', function($http) {
     
