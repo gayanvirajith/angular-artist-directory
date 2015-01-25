@@ -188,6 +188,9 @@ a.small {
     background: #09576D;
 }
 
+.search .filters {
+  padding: 1em 0 0 0;
+}
 .search label {
   display: none;
 }
