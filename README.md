@@ -15,7 +15,7 @@ running `npm install -g gulp`.
 
 This is not the recommended way but, since it is just a html file you could open 
 the `index.html` file using your favorite browser. But if you are using Chrome, 
-make sure you disable same origin policy. You can do that by following 
+make sure you disable same origin policy. You can do that by following this 
 stack overflow post.
 
 [Chrome: Disable same origin policy](http://stackoverflow.com/questions/3102819/disable-same-origin-policy-in-chrome)
