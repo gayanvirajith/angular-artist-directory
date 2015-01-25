@@ -12,7 +12,7 @@
       controller: 'DirectoryController',
       controllerAs: 'directory'
     }).
-    when('details/:itemId', {
+    when('/details/:itemId', {
       templateUrl: 'partials/details.html',
       controller: 'ArtistDetailController',
       controllerAs: 'artistDetail'
