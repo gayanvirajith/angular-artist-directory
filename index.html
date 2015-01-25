@@ -9,10 +9,26 @@
   <script type="text/javascript" src="lib/angular/angular.min.js"></script>
 </head>
 <body>
-  <input type="text" ng-model="name"/>
-  <h2>Welcome, {{ name }}</h2>
+  
+  <div ng-controller="MyController as myCtrl">
+    <h1>{{ myCtrl.author.name }}</h1>
+    <p>{{ myCtrl.author.title + ' - ' + myCtrl.author.website }} </p>
+  </div>
+
   <script type="text/javascript">
     var app = angular.module('ArtistDirectory', []);
+    
+    app.controller('MyController', function() {
+    
+      this.author = {
+          name: "Gayan Virajith",
+          title: "Developer",
+          website: "gayan.me"
+      };
+
+    });
+    
+
   </script>
 </body>
 </html>
