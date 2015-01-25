@@ -12,7 +12,7 @@
   <script type="text/javascript" src="js/controllers.js"></script>
 </head>
 <body>
-  <div class="main" ng-controller="MyController as myCtrl">
+  <div class="main" ng-controller="DirectoryController as myCtrl">
     <ul class="artistlist">
       <li class="artist cf" ng-repeat="item in myCtrl.artists">
         <img ng-src="images/{{ item.shortname }}_tn.jpg" alt="Photo of {{ item.name }}">
