@@ -12,6 +12,11 @@
       controller: 'DirectoryController',
       controllerAs: 'directory'
     }).
+    when('details/:itemId', {
+      templateUrl: 'partials/details.html',
+      controller: 'ArtistDetailController',
+      controllerAs: 'artistDetail'
+    }).
     otherwise({
       redirectTo: '/list'
     });

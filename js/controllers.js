@@ -12,5 +12,18 @@
     });
 
   }]);
+
+  app.controller('ArtistDetailController', ['$http', '$routeParams', 
+    function($http, $routeParams) {
+
+    var directory = this;
+    directory.artists = [];
+
+    $http.get('js/data.json').success(function(data) {
+      directory.artists = data;
+      directory.whichItem = $routeParams.itemId;
+    });
+
+  }]);
     
 })();
