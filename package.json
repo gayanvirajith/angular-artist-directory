@@ -1,0 +1,19 @@
+{
+  "name": "artist-directory",
+  "version": "1.0.0",
+  "description": "Artist directory angular web app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular",
+    "Tutorial"
+  ],
+  "author": "Gayan Virajith <gayanvirajith@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^1.9.1",
+    "gulp": "^3.8.10"
+  }
+}
