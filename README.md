@@ -2,7 +2,7 @@
 
 An angular follow up project. 
 
-## How to run / install
+## How to install/run 
 
 1. `npm install` - You need to have [node](http://nodejs.org/) install.
 2. `gulp serve` - if you dont have gulp installed glabally. Install it first by
