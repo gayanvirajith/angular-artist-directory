@@ -252,7 +252,7 @@ a.small {
 .artistlist li {
   margin: 0;
   padding: 10px 10px 0 10px;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px dotted #D4CDB9;
   opacity: .9;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
