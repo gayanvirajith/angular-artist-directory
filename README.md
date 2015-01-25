@@ -1,6 +1,6 @@
 # Angular app - Artist Directory
 
-An angular follow up project called [Up and Running with AngularJS](http://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html) 
+An AngularJS follow up project called [Up and Running with AngularJS](http://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html) 
 by Ray Villalobos. You can find this course on Lynda.com.    
 
 ## How to install/run 
